@@ -37,10 +37,10 @@ export default function Footer() {
         config.customFooter
       ) : (
         <>
-          <a href="https://librechat.ai" target="_blank" rel="noreferrer" className="underline">
+          {/* <a href="https://librechat.ai" target="_blank" rel="noreferrer" className="underline">
             {config?.appTitle || 'GPT Assistant'} v0.6.10
-          </a>
-          {' - '} {localize('com_ui_new_footer')}
+          </a> */}
+          {/* {' - '} {localize('com_ui_new_footer')} */}
         </>
       )}
     </span>
